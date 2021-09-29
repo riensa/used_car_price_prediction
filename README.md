@@ -1,4 +1,4 @@
-# SciPyGroup_JC_DS_BSD_JKT_13_FinalProject Purwadhika
+# SciPyGroup_JC_DS_BSD_JKT_13_FinalProject Purwadhika - Revision
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -21,12 +21,13 @@
   </ol>
 </details>
 
+_Pembahasan project yang lebih detail ada di blog aku berikut ini <a href="https://ririendahsari.wordpress.com/">https://ririendahsari.wordpress.com/</a>
 
 <!-- project description -->
 ## Project Description
 
 Proyek ini menggunakan data mobil bekas di Inggris yang diambil dari <a href="https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=audi.csv">Kaggle</a>. 
-Tujuan dari proyek ini adalah untuk memprediksi kisaran harga seseorang dalam menjual atau membeli mobil lama dibandingkan dengan harga yang beredar dipasaran. 
+Tujuan dari proyek ini adalah untuk memprediksi kisaran harga seseorang dalam menjual mobil lama dibandingkan dengan harga yang beredar dipasaran. 
 Project ini dibuat dengan menggunakan JupyterNotebook dan model Machine Learningnya menggunakan CatBoostRegressor dan Hyperopt untuk melakukan optimasi parameter 
 dan MAE Score sebagai scoring matrix. Interpretasi model dilakukan dengan menggunakan SHAP.
 * [Jupyter Notebook](https://jupyter.org/)
@@ -40,7 +41,7 @@ dan MAE Score sebagai scoring matrix. Interpretasi model dilakukan dengan menggu
 * **Problem Statement**: Bagaimana cara untuk memprediksi kisaran harga jual mobil bekas sehingga harganya sesuai dengan harga jual yang ada pada pasaran?
 * **Value**: harga mobil bekas.
 * **Goals**: mendapatkan harga mobil bekas sehingga harganya sesuai dengan harga yang ada pada pasaran.
-* **Konteks project**: suatu platform yang mampu memberikan kisaran harga mobil bekas berdasarkan data yang didapatkan dari dealer-dealer mobil bekas di UK, dengan target pengguna platformnya adalah masyarakat umum (end-user).
+* **Konteks Project**: suatu platform yang mampu memberikan kisaran harga mobil bekas berdasarkan data yang didapatkan dari dealer-dealer mobil bekas di UK, dengan target pengguna platformnya adalah masyarakat umum (end-user).
 
 
 
@@ -70,12 +71,10 @@ dan MAE Score sebagai scoring matrix. Interpretasi model dilakukan dengan menggu
 ## EDA
 
 Pada tahap ini akan dilakukan analisa singkat data, sebagai berikut:
-* Distribusi data 
-* Korelasi data
-* Kardinalitas data
-* Visualisasi data secara umum
-* Mengidentifikasi missing value, anomali dan duplikat data
-* Uji Analisa
+* Summary Statistik setiap Variable
+* Uji Korelasi
+* Summary Statistik diantara Dua Variable
+* Summary Statistik menggunakan Tiga Variable
 
 
 
@@ -112,4 +111,4 @@ Pada tahap ini akan menjelaskan kesimpulan project serta rekomendasi berdasarkan
 <!-- contributor -->
 ## Contributor
 
-Muhammad Fariz Tiowiradin (fariz.tiowiradin@gmail.com) & Endah Sari (endahsari0590@gmail.com)
+Endah Sari (endahsari0590@gmail.com) & Muhammad Fariz Tiowiradin (fariz.tiowiradin@gmail.com)
