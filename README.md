@@ -1,3 +1,8 @@
+Saat ini aku sedang melakukan revisi untuk project ini. \
+Untuk melihat sejauh mana revisi ini sudah berjalan, bisa langsung cek di <a href="https://github.com/riensa/used_car_price_prediction/tree/main">branch main</a> atau cek blog aku di <a href="https://ririendahsari.wordpress.com/">ririendahsari.wordpress.com</a>
+
+#####################################################################################
+
 # SciPyGroup_JC_DS_BSD_JKT_13_FinalProject Purwadhika
 
 <!-- TABLE OF CONTENTS -->
