@@ -14,7 +14,7 @@
       <a href="#data-understanding">Data Understanding</a>
     </li>
     <li><a href="#eda">EDA</a></li>
-    <li><a href="#preprocessing">Preprocessing</a></li>
+    <li><a href="#model-benchmark">Model Benchmark</a></li>
     <li><a href="#methodology">Methodology</a></li>
     <li><a href="#conclusion-and-recommendation">Conclusion and Recommendation</a></li>
     <li><a href="#contributor">Contributor</a></li>
@@ -78,15 +78,16 @@ Pada tahap ini akan dilakukan analisa singkat data, sebagai berikut:
 
 
 
-<!-- preprocessing -->
+<!-- model benchmark -->
 
-## Preprocessing
-Pada tahap ini akan dilakukan persiapan dan pengolahan data sebelum digunakan sebagai data model, sebagai berikut: 
-* Handling missing value
-* Mengubah tipe data
-* Handling anomaly data
-* Menghilangkan data yang terindikasi duplikat
-* Feature Engineering
+## Model Benchmark
+Pada tahap ini akan dilakukan persiapan dan pengolahan data sebelum digunakan sebagai data model dan juga model benchmark untuk menseleksi model yang akan kita gunakan, sebagai berikut: 
+* Identifying & Handling Duplicate Data
+* Identifying & Handling Anomali Data
+* Identifying & Handling Missing Value
+* Encoding Categorical Data
+* Casting Data Type
+* Model Comparison
 
 
 <!-- Methodology -->
