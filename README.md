@@ -21,7 +21,7 @@
   </ol>
 </details>
 
-_Pembahasan project yang lebih detail ada di blog aku berikut ini <a href="https://ririendahsari.wordpress.com/">https://ririendahsari.wordpress.com/</a>
+Pembahasan project yang lebih detail ada di blog aku berikut ini <a href="https://ririendahsari.wordpress.com/portfolio/used-card-price-prediction/">https://ririendahsari.wordpress.com/</a>
 
 <!-- project description -->
 ## Project Description
