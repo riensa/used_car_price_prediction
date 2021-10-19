@@ -1,4 +1,4 @@
-# SciPyGroup_JC_DS_BSD_JKT_13_FinalProject Purwadhika - Revision
+# CAPRISON Final Project Purwadhika
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
