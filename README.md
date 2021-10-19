@@ -60,7 +60,6 @@ dan MAE Score sebagai scoring matrix. Interpretasi model dilakukan dengan menggu
 | mpg          	| Miles per gallon; Total jarak tempuh mobil berdasarkan total konsumsi bahan bakar yg digunakan. semakin besar nilai mpg berarti konsumsi bahan bakar yg digunakan akan semakin sedikit (semakin irit)                     	|
 | engineSize   	| Engine capacity atau engine displacement (kapasitas mesin); volume total silinder mesin. secara umum, semakin besar nilai kapasitas mesin akan meningkatkan kebutuhan konsumsi bahan bakar (kendaraan akan semakin boros) 	|
 | brand        	| Merk mobil                                                                                                                                                                                                                	|
-| age          	| Umur mobil dari tahun pertama registrasi mobil hingga tahun saat ini                                                                                                                                                      	|
 
 
 **FEATURE** = model, transmission, mileage, fuelType, tax, mpg, engineSize, brand, dan age. \
@@ -93,23 +92,25 @@ Pada tahap ini akan dilakukan persiapan dan pengolahan data sebelum digunakan se
 <!-- Methodology -->
 
 ## Methodology
-Pada tahap ini akan dilakukan pembuatan dan melakukan optimasi model machine learning, sebagai berikut:
-1. Memuat model benchmark
-2. Model Improvement dengan categorical feature
-3. Model Improvement dengan hyperparameter tuning
-4. Penentuan feature importance
-5. Melakukan validasi model terhadap data testing 
-6. Interpretasi model menggunakan SHAP
+Pada tahap ini akan dilakukan feature engineering dan melakukan optimasi model machine learning, sebagai berikut:
+1. Feature Engineering
+2. Hyperparameter Tuning
+3. Model-Based Testing
+4. Model Perfomance Based on Car Brand
+5. Model Interpretation with Shap
 
 
 
 <!-- conclusion recommendation -->
 ## Conclusion and Recommendation
 
-Pada tahap ini akan menjelaskan kesimpulan project serta rekomendasi berdasarkan model machine learning yang sudah dibuat.
+Kita berhasil membuat model machine learning dengan kesalahan prediksi sebesar 7.16% pada data train dan performanya menjadi lebih baik pada data test dengan kesalahan prediksi sebesar 7%. Jika dibandingkan dengan model benchmark, terdapat peningkatan performa setelah dilakukan feature engineering dan hyperparameter tuning. Berdasarkan hal itu, kita bisa mengatakan penambahan informasi / fitur dapat membantu dalam meningkatkan performa model dalam memprediksi harga mobil. Sehingga model ini bisa memiliki performa yang lebih baik lagi jika mendapatkan tambahan informasi / fitur.
 
+Secara umum model kita mampu memprediksi harga jual mobil dengan kesalahan prediksi sekitar 7%. Dan pada saat ditest berdasarkan brandnya, mobil kita menampilkan performa yang tinggi saat memprediksi mobil-mobil dengan brand toyota dengan kesalahan prediksi sebesar 6.18%
+
+Dengan menggunakan SHAP kita juga dapat menginterpretasi model kita. Tanpa SHAP, kita hanya bisa mendapatkan informasi feature importance (karena model kita menggunakan catboost). Tetapi feature importance hanya menunjukkan besar pengaruh fitur terhadap target. Dengan menggunakan SHAP, kita dapat mengetahui tidak hanya besar pengaruh fitur tersebut, tetapi juga arahnya (positif atau negatif terhadap target), efek marginal tiap fitur, bahkan bagaimana pengaruh fitur-fitur tersebut dapat menentukan harga pada tiap observasi data.
 
 <!-- contributor -->
 ## Contributor
 
-Endah Sari (endahsari0590@gmail.com) & Muhammad Fariz Tiowiradin (fariz.tiowiradin@gmail.com)
+Endah Sari <a href="https://www.linkedin.com/in/endah-sari-riensa/" target="_blank">linkedin</a>
